@@ -17,20 +17,22 @@ Ensure you have **Python 3.10+** installed.
 
 #### **Windows**
 ```sh
-pip install -r requirements.txt
 winget install ffmpeg
 ```
 
 #### **Linux (Debian/Ubuntu-based)**
 ```sh
 sudo apt update && sudo apt install -y python3-tk ffmpeg
-pip install -r requirements.txt
 ```
 
 #### **macOS**
 ```sh
 brew install python-tk ffmpeg
-pip install -r requirements.txt
+```
+
+Additionally, ensure you have the necessary Python modules installed:
+```sh
+pip install tkinter
 ```
 
 ---
@@ -39,7 +41,7 @@ pip install -r requirements.txt
 Once dependencies are installed, you can start the application by running:
 
 ```sh
-python main.py
+python m3u8_video_downloader.py
 ```
 
 ---
@@ -61,12 +63,11 @@ If you want to distribute the app as an executable:
 
 ```sh
 pip install pyinstaller
-pyinstaller --onefile --windowed main.py
+pyinstaller --onefile --windowed m3u8_video_downloader.py
 ```
 - The standalone executable will be available in the `dist/` folder.
 
 ---
-
 
 ## License
 MIT License. Feel free to modify and distribute.
@@ -74,5 +75,5 @@ MIT License. Feel free to modify and distribute.
 ---
 
 ## Author
-[Daniel Rubin]
+Daniel Rubin
 
