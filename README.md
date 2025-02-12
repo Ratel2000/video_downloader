@@ -51,6 +51,12 @@ python m3u8_video_downloader.py
    ```
    URL | Filename | Folder
    ```
+   - **URL**: The direct link to the video file (e.g., `https://example.com/video.m3u8`).
+   - you can get this links with: 
+     m3u8 Sniffer extention - https://chromewebstore.google.com/detail/m3u8-sniffer-tv-find-and/akkncdpkjlfanomlnpmmolafofpnpjgn
+   - **Filename**: The desired name for the downloaded file (without extension).
+   - **Folder**: The directory where the video will be saved.
+
 2. Click **Start Downloads** to begin.
 3. Progress bars will update as downloads proceed.
 4. Check the log for errors or successful downloads.
